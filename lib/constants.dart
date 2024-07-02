@@ -120,7 +120,7 @@ List<Stocks> stockImages = [
           'https://1000logos.net/wp-content/uploads/2021/08/Indian-Oil-Emblem.png')
 ];
 
-String host = 'http://192.168.0.105:3000';
+String host = 'http://<YOUR_IP>:3000';
 
 void httpErrorHandle(
     {required http.Response res,
